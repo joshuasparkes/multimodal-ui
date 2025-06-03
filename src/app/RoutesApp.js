@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
+import Image from "next/image";
 
 const API_BASE_URL = "http://localhost:8080";
 
@@ -151,15 +152,15 @@ function RoutesApp() {
       }}
     >
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <h1
-          style={{
-            textAlign: "center",
-            fontSize: "2.5rem",
-            marginBottom: "0.5rem",
-            color: "#333",
-          }}
-        >
-          🚄 Route Planner
+        <h1 className="text-center text-4xl mb-2 text-gray-800 flex items-center justify-center gap-3">
+          <Image
+            src="/favicon.ico"
+            alt="Junction Route Planner"
+            width={40}
+            height={40}
+            className="rounded-md"
+          />
+          Junction Route Planner
         </h1>
 
         <p
