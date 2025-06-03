@@ -430,7 +430,7 @@ function RoutesApp() {
                     fontSize: "1.2rem",
                   }}
                 >
-                  ✅ What's Working
+                  ✅ What&apos;s Working
                 </h3>
 
                 <div style={{ marginBottom: "1.5rem" }}>
